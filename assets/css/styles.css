@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: rgb(12, 13, 14);
+    color: #fff;
+    font-family: 'Changa',
+    sans-serif;
+}
+
+.qrbox {
+    display: grid;
+    grid-row-gap: 10px;
+}
+
+.qrbox h1 {
+    text-align: center;
+}
+
+.qrbox img {
+    height: 300px;
+    width: 300px;
+    padding: 1rem;
+    border: 2px solid rgb(118, 109, 97);
+    border-radius: 0.5rem;
+}
+
+.qrbox textarea {
+    outline: none;
+    height: 100px;
+    padding: 1rem;
+    border: 2px solid rgb(118, 109, 97);
+    border-radius: 0.5rem;
+    font-family: 'Changa',
+    sans-serif;
+    font-size: 16px;
+    background-color: #181a1b;
+    color: #fff;
+    resize: none;
+}
+
+.qrbox button {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: rgb(51, 55, 58);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    font-family: 'Changa',
+    sans-serif;
+    color: #fff;
+}
+
+.qrbox button:hover {
+    background-color: #505050;
+}
